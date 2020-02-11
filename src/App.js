@@ -58,10 +58,10 @@ class App extends React.Component {
                 <div className="main">
                     <div className="container">
                         <div className="row">
-                            <div className="col info">
+                            <div className="col-sm-6 info">
                                 <Info/>
                             </div>
-                            <div className="col form">
+                            <div className="col-sm-6 form">
                                 <Form weatherMethod={this.gettingWeather}/>
                                 <WeatherInfo
                                     temp={this.state.temp}
